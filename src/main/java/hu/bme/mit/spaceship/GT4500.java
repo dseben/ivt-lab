@@ -8,6 +8,7 @@ public class GT4500 implements SpaceShip {
   private TorpedoStore primaryTorpedoStore;
   private TorpedoStore secondaryTorpedoStore;
 
+  // Indicates whether the primary torpedo store was fired last
   private boolean wasPrimaryFiredLast = false;
 
   public GT4500() {
